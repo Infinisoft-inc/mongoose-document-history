@@ -1,0 +1,22 @@
+{
+  "name": "@infini-soft/mongoose-document-history",
+  "version": "1.0.0",
+  "description": "Mongoose/Typegoose plugin adding history to documents",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "link": "npm run build && cd dist && npm link"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Infinisoft-inc/mongoose-document-history.git"
+  },
+  "author": "Infinisoft Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Infinisoft-inc/mongoose-document-history/issues"
+  },
+  "homepage": "https://github.com/Infinisoft-inc/mongoose-document-history#readme"
+}
