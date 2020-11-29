@@ -7,7 +7,7 @@ import moment from 'moment';
 import { modelOptions } from '@typegoose/typegoose/lib/modelOptions';
 import { Severity } from '@typegoose/typegoose/lib/internal/constants';
 import { registerPlugin } from '../dist';
-import { History } from '../dist'
+import { History } from '../dist';
 
 @modelOptions({ options: { allowMixed: Severity.ALLOW } })
 class TestModel extends History {
