@@ -1,2 +1,2 @@
-export { IHistory } from './schemas/history';
+export { History, HistoryEvent } from './schemas';
 export { registerPlugin } from './registerplugin'

@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Infinisoft-inc/mongoose-document-history/issues"
   },
-  "homepage": "https://github.com/Infinisoft-inc/mongoose-document-history#readme"
+  "homepage": "https://github.com/Infinisoft-inc/mongoose-document-history#readme",
+  "dependencies": {
+    "@typegoose/typegoose": "^7.4.2",
+    "@types/mongoose": "^5.10.1",
+    "mongoose": "^5.10.17"
+  }
 }
